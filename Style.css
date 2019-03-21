@@ -1,0 +1,200 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-image: url(Image/bgImage.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    padding: 1vh 3vw;
+    font-family: 'lato';
+    font-size: 3em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.two:hover ~ hr {
+    margin-left: 30%;
+}
+
+.three:hover ~ hr {
+    margin-left: 65%;
+}
+
+hr {
+    height: .25rem;
+    width: 32%;
+    margin: 2vh 0;
+    background: #fff;
+    border: none;
+    transition: .3s ease-in-out;
+}
+
+header h1 {
+    font-family: 'Lato';
+    text-align: center;
+    margin-top: 25vh;
+    font-size: 90px;
+    font-weight: 700;
+    color: #fff;
+}
+
+main {
+    background-color: #fff;
+    height: 50vh;
+}
