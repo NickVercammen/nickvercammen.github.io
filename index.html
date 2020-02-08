@@ -7,7 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="scripts.js"></script>
+    <script src="Scripts/jquery.stellar.min.js"></script>
+    <script src="Scripts/email_script.js"></script>
     <title>Home</title>
 </head>
 
@@ -21,10 +22,14 @@
                 <hr />
             </ul>
         </nav>
-        <div>
+        <div data-stellar-ratio="0.5">
             <h1>Nick Vercammen</h1>
             <h2>Political Sciences Student</h2>
         </div>
+        <script>
+            $('header').stellar();
+
+        </script>
     </header>
     <main>
         <section class='TLDR'>
@@ -61,6 +66,7 @@
             <a href="#"><img src="Image/GithubLogo.png" alt="Github"></a>
         </div>
     </footer>
+
 </body>
 
 </html>
