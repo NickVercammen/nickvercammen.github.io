@@ -139,17 +139,13 @@ table {
     src: url('https://fonts.googleapis.com/css?family=Lato');
 }
 
-body {
+header {
     background-image: url(Image/bgImage.jpg);
     background-position: top;
     background-size: cover;
     height: 100vh;
-}
-
-header {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 header nav {
@@ -223,6 +219,12 @@ header h2 {
     font-family: 'Source Sans Pro';
     font-size: 2rem;
     text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.3), 1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+main {
+    background-image: url(Image/bgImage.jpg);
+    background-position: bottom;
+    background-size: cover;
 }
 
 main section {
