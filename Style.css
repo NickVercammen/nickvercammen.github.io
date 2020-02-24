@@ -206,7 +206,8 @@ header div {
     font-family: 'Lato';
     text-align: left;
     color: #fff;
-    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5), 2px 1px 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5),
+    2px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
@@ -218,7 +219,6 @@ header h1 {
 header h2 {
     font-family: 'Source Sans Pro';
     font-size: 3rem;
-    text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.5), 2px -2px 0 rgba(0, 0, 0, 0.5);
 }
 
 main {
