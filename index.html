@@ -6,23 +6,30 @@
     <link rel="stylesheet" href="Style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="Image/pic.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="Scripts/parallaxie.js" s></script>
     <script src="Scripts/email_script.js"></script>
+    <script src="Scripts/navigatoin.js"></script>
     <title>Home</title>
 </head>
 
 <body>
     <header>
         <nav id="navtop">
-            <ul>
+            <ul id="navhide">
                 <li class="one"><a href="index.html">HOME</a></li>
                 <li class="two"><a href="#navtop" id="emailLink">EMAIL</a></li>
                 <li class="three"><a href="Curriculum%20Vitae.pdf" target="_blank">RESUME</a></li>
                 <hr />
             </ul>
         </nav>
+        <aside class="container" onclick="myFunction(this)">
+            <p class="bar1"></p>
+            <p class="bar2"></p>
+            <p class="bar3"></p>
+        </aside>
         <div>
             <h1>Nick Vercammen</h1>
             <h2>Political Sciences Student</h2>
