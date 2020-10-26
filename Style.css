@@ -163,7 +163,10 @@ header nav {
 header nav ul {
     justify-content: center;
     align-items: center;
-    padding: 3vh 0;
+    padding: 4vh 0;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 header nav ul li {
@@ -177,26 +180,6 @@ header nav ul li a {
     font-weight: 700;
     color: #000;
     text-decoration: none;
-}
-
-.two:hover ~ hr {
-    margin-left: 31%;
-    border-radius: 0 0 0 0;
-}
-
-.three:hover ~ hr {
-    margin-left: 64%;
-    border-radius: 0 10px 10px 0;
-}
-
-hr {
-    border-radius: 10px 0 0 10px;
-    height: .3rem;
-    width: 32%;
-    margin: 2vh 0;
-    background: #000;
-    border: none;
-    transition: .3s ease-in-out;
 }
 
 header div {
@@ -316,8 +299,16 @@ main .Skills .skillset{
     font-family: 'Source Sans Pro'
 }
 
+main .TLDR h2 {
+    padding-bottom: 2vh ;
+    font-size: 2.3rem;
+    font-family: 'Source Sans Pro'
+}
+
 main .TLDR p {
     width: 50%;
+    font-size: 1.6rem;
+    font-family: 'Source Sans Pro'
 }
 
 main .Skills p {
