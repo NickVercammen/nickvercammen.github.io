@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Style.css">
@@ -44,18 +43,53 @@
         </section>
         <section class='Skills'>
             <h2>Current Skills</h2>
-            <div>
+            <section>
                 <h3>Political Science</h3>
-                <p>Basic knowledge of statistics, political and social sciences</p>
-            </div>
-            <div>
-                <h3>Language</h3>
-                <p>Fluent in dutch, adequate speaking and writing in English and French</p>
-            </div>
-            <div>
-                <h3>Informatics</h3>
-                <p>Practised in webbased and object oriënted programming: Java, C#, html, css, jQuery, python, ...</p>
-            </div>
+                <div class="skillset">
+                    <h4>Statistics</h4> 
+                    <ul>
+                        <li>Data Analysis</li>
+                        <li>SPSS</li>
+                    </ul>
+                </div>
+                <div class="skillset">
+                    <h4>Political Science</h4> 
+                    <ul>
+                        <li>Comparative Politics</li>
+                        <li>Governance Studies</li>
+                    </ul>
+                </div>
+                <div class="skillset">
+                    <h4>Social Science</h4> 
+                    <ul>
+                        <li>Political Sociology</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h3>Computer Sciences</h3>
+                <div class="skillset">
+                    <h4>Object Oriënted Programming</h4> 
+                    <ul>
+                        <li>Java</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+                <div class="skillset">
+                    <h4>Webbased Programming</h4> 
+                    <ul>
+                        <li>HTML, CSS, Javascript, JQuery</li>
+                        <li>NodeJS</li>
+                    </ul>
+                </div>
+                <div class="skillset">
+                    <h4>Database Programming</h4> 
+                    <ul>
+                        <li>PostgreSQL and MySQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </section>
         </section>
     </main>
     <footer>
@@ -71,16 +105,14 @@
         </div>
     </footer>
     <script>
-        $('header').parallaxie({
-            speed: 0.5,
-            offset: 25
-        });
-        $('main').parallaxie({
-            speed: 0.7
-        });
-
+    $('header').parallaxie({
+        speed: 0.5,
+        offset: 25
+    });
+    $('main').parallaxie({
+        speed: 0.7
+    });
     </script>
-
 </body>
 
 </html>
