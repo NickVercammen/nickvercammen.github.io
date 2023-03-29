@@ -319,7 +319,7 @@ footer {
     padding: 0 30vw;
     background-color: #fff;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
