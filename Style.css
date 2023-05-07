@@ -209,7 +209,7 @@ header div {
 }
 
 header h1 {
-    font-size: 9rem;
+    font-size: 12rem;
     font-weight: 700;
     padding: 2vh 0;
 }
@@ -365,11 +365,65 @@ footer div:first-of-type {
 footer div img {
     width: 5vw;
 }
-
-@media only screen and (max-width: 640px),
-(orientation: portrait) {
+@media only screen and (max-width: 1000px){
     header nav {
-        min-height: 50px;
+        min-height: 12vh;
+    }
+
+    header nav ul li a{
+        font-size: 1.7em;
+    }
+
+    header h1{
+        font-size: 6em;
+    }
+
+    header h2{
+        font-size: 2.2em;
+    }
+
+    main .TLDR h2{
+        font-size: 3em;
+    }
+    main .TLDR p{
+        width: 60%;
+        font-size: 1.8em;
+    }
+
+    main .Skills{
+        padding: 10vh 5vw;
+    }
+
+    main .Skills h2{
+        font-size: 5em;
+    }
+
+    main .Skills h3{
+        font-size: 2.3em;;
+    }
+    
+    main .Skills h4{
+        padding: 1.8vh 0 1vh 0;
+    }
+    main .Skills .skillset{
+        margin: 0;
+        font-size: 1.4em;;
+    }
+
+    main .Skills .skillset ul{
+        margin-left: 1vw;
+    }
+}
+
+@media only screen and (max-width: 640px),(orientation: portrait){
+    body{
+        background-image: url(Image/bgImage.jpg);
+        background-position: bottom;
+        background-size: cover;
+    }
+
+    header nav {
+        min-height: 4vh;
     }
 
     header nav ul {
@@ -410,10 +464,10 @@ footer div img {
     .bar1,
     .bar2,
     .bar3 {
-        width: 35px;
-        height: 5px;
+        width: 5vw;
+        height: 0.4vh;
         background-color: #333;
-        margin: 6px 0;
+        margin: 0.3vh 0;
         transition: 0.3s;
     }
 
@@ -432,21 +486,24 @@ footer div img {
     }
 
     header h1 {
-        font-size: 4rem;
+        font-size: 12em;
         padding: 15vh 0 3vh 0;
     }
 
     header h2 {
-        font-family: 'Bebas Neue';
-        font-size: 1.5rem;
+        font-size: 4em;
     }
 
     main {
-        background-position: center;
-        ;
+        height: 200%;
     }
 
+
+    main .TLDR h2{
+        font-size: 6em;
+    }
     main .TLDR p {
+        font-size: 3em;
         width: 85%;
     }
 
@@ -457,11 +514,12 @@ footer div img {
     }
 
     main .Skills h2 {
-        font-size: 4rem;
+        font-size: 8em;
         margin-bottom: none;
         grid-column-start: 1;
         grid-column-end: 1;
-        padding: 4vh 2vw;
+        padding: 4vh 2vw 2vh 2vw;
+        margin: 0;
     }
 
     main .Skills h2:before {
@@ -469,15 +527,16 @@ footer div img {
     }
 
     main .Skills h3 {
-        font-size: 2.2rem;
+        font-size: 4em;
+        padding-bottom: 1vh;
     }
 
-    main .Skills div {
-        padding: 3vh 2vw 4vh 2vw;
+    main .Skills .skillset {
+        margin-left: 0;
+        text-align: left;
+        padding: 1vh 2vw;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 
     main .Skills div:before {
@@ -492,6 +551,16 @@ footer div img {
 
     main .Skills div:last-of-type:before {
         border-bottom: none;
+    }
+
+    main .Skills .skillset h4{
+        font-size: 1.8em;
+        padding: 1.3vh 0 0.5vh 0;
+    }
+
+    main .Skills ul{
+        margin-left: 3vw;
+        font-size: 1.2em;
     }
 
     main section p {
@@ -509,3 +578,4 @@ footer div img {
     footer div img {
         width: 12vw;
     }
+}
