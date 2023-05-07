@@ -130,13 +130,18 @@ table {
 }
 
 @font-face {
-    font-family: 'Source Sans Pro';
-    src: url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+    font-family: 'Bebas Neue';
+    src: url(Fonts/BebasNeue.ttf);
 }
 
 @font-face {
-    font-family: 'Lato';
-    src: url('https://fonts.googleapis.com/css?family=Lato');
+    font-family: 'Avenir Book';
+    src: url(Fonts/AvenirBook.ttf);
+}
+
+@font-face {
+    font-family: 'Avenir Black';
+    src: url(Fonts/AvenirBlack.ttf);
 }
 
 header {
@@ -175,7 +180,7 @@ header nav ul li {
 
 header nav ul li a {
     padding: 1vh 2vw;
-    font-family: 'lato';
+    font-family: 'Avenir Book';
     font-size: 2em;
     font-weight: 700;
     color: #000;
@@ -186,7 +191,7 @@ header div {
     width: 70%;
     margin-top: 10%;
     margin-left: 7%;
-    font-family: 'Lato';
+    font-family: 'Bebas Neue';
     text-align: left;
     color: #fff;
     text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.5),
@@ -194,13 +199,13 @@ header div {
 }
 
 header h1 {
-    font-size: 6.5rem;
+    font-size: 9rem;
     font-weight: 700;
     padding: 2vh 0;
 }
 
 header h2 {
-    font-family: 'Source Sans Pro';
+    font-family: 'Avenir Black';
     font-size: 3rem;
 }
 
@@ -242,7 +247,7 @@ main .Skills section {
 main .Skills h2 {
     text-align: center;
     font-size: 2.3rem;
-    font-family: 'Lato';
+    font-family: 'Bebas Neue';
     font-weight: 700;
     padding-bottom: 2vh;
 }
@@ -250,8 +255,7 @@ main .Skills h2 {
 main .Skills h2 {
     position: relative;
     margin-bottom: 4vh;
-    font-size: 3.5rem;
-    font-weight: 700;
+    font-size: 4.5rem;
     color: #fff;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -272,12 +276,12 @@ main .Skills h2:before {
 main .Skills h3 {
     color: #fff;
     font-size: 2.5rem;
-    font-family: 'Lato';
-    font-weight: 700;
+    font-family: 'Avenir Black';
     padding-bottom: 2vh;
 }
 
 main .Skills h4{
+    font-family: 'Avenir Book';
     color: #fff;
     padding-bottom: 1vh;
 }
@@ -285,7 +289,7 @@ main .Skills h4{
 main .Skills ul{
     color: #fff;
     font-size: 1.2rem;
-    font-family: 'Source Sans Pro';
+    font-family: 'Avenir Book';
     list-style: circle;
 }
 
@@ -297,19 +301,20 @@ main .Skills .skillset{
     margin-left: 2vw;
     padding-bottom: 1vh;
     font-size: 1.6rem;
-    font-family: 'Source Sans Pro'
+    font-family: 'Bebas Neue'
 }
 
 main .TLDR h2 {
     padding-bottom: 2vh ;
     font-size: 2.3rem;
-    font-family: 'Source Sans Pro'
+    font-family: 'Bebas Neue'
 }
 
 main .TLDR p {
     width: 50%;
     font-size: 1.6rem;
-    font-family: 'Source Sans Pro'
+    line-height: 110%;
+    font-family: 'Avenir Book'
 }
 
 main .Skills p {
@@ -328,7 +333,7 @@ footer h2 {
     grid-column-start: 1;
     grid-column-end: 4;
     text-align: center;
-    font-family: 'Lato';
+    font-family: 'Avenir Book';
     font-weight: 700;
     font-size: 1.2rem;
     padding-top: 6vh;
@@ -378,7 +383,6 @@ footer div img {
         border-radius: nopne;
         height: 0;
         width: 0;
-        margin;
         background: none;
         border: none;
 
@@ -423,7 +427,7 @@ footer div img {
     }
 
     header h2 {
-        font-family: 'Source Sans Pro';
+        font-family: 'Bebas Neue';
         font-size: 1.5rem;
     }
 
